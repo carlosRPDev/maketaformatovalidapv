@@ -1,5 +1,2199 @@
-<div class="container col-lg-10 bg-info">
-  <div class="row bg-dark">
-    <h1>Hola</h1>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>FORMATO DE CONTROL DE SUPERVISION EN EQUIPOS DE COMUNICACIÓN, COMPUTOS Y CONDICIONES DE SEGURIDAD</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+  <a class="navbar-brand" href="#">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <!-- menu despegable en pantallas de celulares -->
   </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <h2 class="mt-3">Datos Punto de Venta</h2>
+      <form class="" action="" method="post">
+        <div class="form-group">
+          <input class="form-control" type="text" name="" value="" placeholder="codigo punto">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="date" name="" value="">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="" value="" placeholder="nombre y apellido del asesor">
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" name="" value="" placeholder="cedula">
+        </div>
+        <form>
+          <p>Punto autorizado para giros</p>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheckSi" name="si">
+            <label class="custom-control-label" for="customCheckSi">Si</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheckNo" name="no">
+            <label class="custom-control-label" for="customCheckNo">No</label>
+          </div>
+        </form>
+        <div class="form-group mt-3">
+          <input class="form-control" type="text" name="" value="" placeholder="sucursal">
+        </div>
+        <form>
+          <select name="" class="custom-select">
+            <option selected>Seleccione tipo de punto</option>
+            <option value="">Punto de venta</option>
+            <option value="">Centro de experiencia</option>
+            <option value="">Centro de costo</option>
+          </select>
+        </form>
+      </form>
+    </div>
+
+    <div class="col-sm-8 mt-5">
+       <div id="accordion"> 
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Valoracion Electrica
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card">
+                <div class="card-header">1. Tableros o cajas de control eléctrico están adecuadamente señalizados representando el riesgo eléctrico</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item1">
+                      <label class="custom-control-label" for="item1">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item2" name="">
+                      <label class="custom-control-label" for="item2">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">2. Los circuitos en la caja de control perteneciente a la luminaria y ventilación se encuentran señalizado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item3">
+                      <label class="custom-control-label" for="item3">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item4" name="">
+                      <label class="custom-control-label" for="item4">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">3. Los circuitos en la caja de control perteneciente a la aviso publicitario se encuentran señalizado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item5">
+                      <label class="custom-control-label" for="item5">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item6" name="">
+                      <label class="custom-control-label" for="item6">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">4. Los circuitos en la caja de control perteneciente a la energía regulada se encuentran señalizado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item7">
+                      <label class="custom-control-label" for="item7">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item8" name="">
+                      <label class="custom-control-label" for="item8">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">5. ¿Tomas eléctricos en buen estado?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item9">
+                      <label class="custom-control-label" for="item9">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item10" name="">
+                      <label class="custom-control-label" for="item10">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">6. Tomas de seguridad en buen estado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item11">
+                      <label class="custom-control-label" for="item11">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item12" name="">
+                      <label class="custom-control-label" for="item12">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">7. Se cuenta con UPS.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item13">
+                      <label class="custom-control-label" for="item13">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item14" name="">
+                      <label class="custom-control-label" for="item14">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">8. Se cuenta con Regulador de voltaje.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item15">
+                      <label class="custom-control-label" for="item15">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item16" name="">
+                      <label class="custom-control-label" for="item16">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">9. Cable Macho a Macho en buen estado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item17">
+                      <label class="custom-control-label" for="item17">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item18" name="">
+                      <label class="custom-control-label" for="item18">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">10. Se cuenta con baterias.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item19">
+                      <label class="custom-control-label" for="item19">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item20" name="">
+                      <label class="custom-control-label" for="item20">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">11. Se cuenta con extencion.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item21">
+                      <label class="custom-control-label" for="item21">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item22" name="">
+                      <label class="custom-control-label" for="item22">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">12. Cuenta con planta electrica.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item23">
+                      <label class="custom-control-label" for="item23">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item24" name="">
+                      <label class="custom-control-label" for="item24">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">13. Cumple normativa de colores en cableado amarillo (avisos), negro(fase), rojo(tomas y luces), blanco (neutro).</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item25">
+                      <label class="custom-control-label" for="item25">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item26" name="">
+                      <label class="custom-control-label" for="item26">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="alert alert-danger mt-3">
+                  <label class="font-weight-light font-italic">Para realizar la medición cuantitativa de las instalaciones eléctricas, tener en cuenta los siguientes parámetros:</label">
+                </div>
+
+                <div class="row col-5 small">
+                  <table class="table table-danger table-striped font-weight-light font-italic">
+                    <tbody>
+                      <tr>
+                        <td>FN: FASE</td>
+                        <td>100≤FN≤130</td>
+                      </tr>
+                      <tr>
+                        <td>NT: NEUTRO</td>
+                        <td>0≤NT≤1</td>
+                      </tr>
+                      <tr>
+                        <td>FT: FASE TIERRA</td>
+                        <td>101≤FN≤132</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">14. Toma de lectura en caja.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FN" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="NT" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FT" name=""></div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item27">
+                          <label class="custom-control-label" for="item27">Si</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item28">
+                          <label class="custom-control-label" for="item28">No</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">15. Toma de lectura tomacorreientes.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FN" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="NT" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FT" name=""></div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item29">
+                          <label class="custom-control-label" for="item29">Si</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item30">
+                          <label class="custom-control-label" for="item30">No</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">16. Lectura de trasnferencia.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FN" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="NT" name=""></div>
+                      <div class="col"><input type="text" class="form-control" id="" placeholder="FT" name=""></div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item31">
+                          <label class="custom-control-label" for="item31">Si</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <form>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="item32">
+                          <label class="custom-control-label" for="item32">No</label>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+              Valoracion Red Inalambrica y Equipos de Comunicaciones
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="container">
+                <div class="alert alert-danger">
+                  <label class="font-weight-light font-italic">
+                    Para la valoración de Red en los equipos se debe tener en cuenta la clasificación de los puntos de ventas y/o oficinas,
+                    así mismo el tipo de conexiones aplicables para obtener conexión.
+                  </label">
+                </div>
+                <div class="row font-weight-light font-italic small">
+                  <div class="table-responsive">
+                    <table class="table table-danger table-striped">
+                      <thead>
+                        <tr>
+                          <th>CLASE</th>
+                          <th>INALAMBRICA</th>
+                          <th>SATELITAL</th>
+                          <th>RED. COMER.</th>
+                          <th>VPN</th>
+                          <th>GPRS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Punto de venta</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <td>Tercerizacion</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Centro de experiencia</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Centro de costo</td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">17. Cableado de red rotulado con su respectivo nombre.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item33">
+                      <label class="custom-control-label" for="item33">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item34" name="">
+                      <label class="custom-control-label" for="item34">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item35" name="">
+                      <label class="custom-control-label" for="item35">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">18. El ponchado de los cables de red es el correcto.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item36">
+                      <label class="custom-control-label" for="item36">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item37" name="">
+                      <label class="custom-control-label" for="item37">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item38" name="">
+                      <label class="custom-control-label" for="item38">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">19. RJ45 se encuentran en buen estado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item39">
+                      <label class="custom-control-label" for="item39">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item40" name="">
+                      <label class="custom-control-label" for="item40">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item41" name="">
+                      <label class="custom-control-label" for="item41">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">20. Indoor se encuentra en buen estado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item42">
+                      <label class="custom-control-label" for="item42">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item43" name="">
+                      <label class="custom-control-label" for="item43">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item44" name="">
+                      <label class="custom-control-label" for="item44">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">21. Router se encuentra en buen estado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item45">
+                      <label class="custom-control-label" for="item45">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item46" name="">
+                      <label class="custom-control-label" for="item46">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item47" name="">
+                      <label class="custom-control-label" for="item47">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">22. Cuenta con Swith Ethernet.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item48">
+                      <label class="custom-control-label" for="item48">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item49" name="">
+                      <label class="custom-control-label" for="item49">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item50" name="">
+                      <label class="custom-control-label" for="item50">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">23. Cuenta con DVR.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item51">
+                      <label class="custom-control-label" for="item51">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item52" name="">
+                      <label class="custom-control-label" for="item52">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item53" name="">
+                      <label class="custom-control-label" for="item53">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">24. Condiciones de la antena o radio.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item54">
+                      <label class="custom-control-label" for="item54">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item55" name="">
+                      <label class="custom-control-label" for="item55">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item56" name="">
+                      <label class="custom-control-label" for="item56">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">25. Cuenta con conexion satelital.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item57">
+                      <label class="custom-control-label" for="item57">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item58" name="">
+                      <label class="custom-control-label" for="item58">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item59" name="">
+                      <label class="custom-control-label" for="item59">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">26. Cuenta con conexión VPN.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item60">
+                      <label class="custom-control-label" for="item60">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item61" name="">
+                      <label class="custom-control-label" for="item61">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item62" name="">
+                      <label class="custom-control-label" for="item62">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">27. Cuenta con conexión GPRS.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item63">
+                      <label class="custom-control-label" for="item63">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item64" name="">
+                      <label class="custom-control-label" for="item64">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item65" name="">
+                      <label class="custom-control-label" for="item65">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseThree">
+              Valoracion de Version de Aplicaciones
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="container">
+                <div class="alert alert-danger">
+                  <label class="font-weight-light font-italic">
+                    Para la valoracion de las aplicaciones en los equipos se debe tener encuenta la clasificacion de los puntos de ventas
+                     y/o oficinas, asi mismo  los accesos permitidos administrativos o comerciales.
+                  </label">
+                </div>
+                <div class="row font-weight-light font-italic small">
+                  <div class="table-responsive">
+                    <table class="table table-danger table-striped">
+                      <thead>
+                        <tr>
+                          <th>CLASE</th>
+                          <th>POSSLIM</th>
+                          <th>SIMS</th>
+                          <th>BETPLAY</th>
+                          <th>BNET LOTERIA</th>
+                          <th>BNET GAMBLE</th>
+                          <th>LINUX</th>
+                          <th>W7-32 BITS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Punto de venta</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Tercerizacion</td>
+                          <td>X</td>
+                          <td></td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <td>Centro de experiencia</td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                        </tr>
+                        <tr>
+                          <td>Centro de costo</td>
+                          <td>X</td>
+                          <td></td>
+                          <td></td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td>X</td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">28. version de la aplicación  Posslim FIX 7.3  rs 47295.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item66">
+                      <label class="custom-control-label" for="item66">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item67" name="">
+                      <label class="custom-control-label" for="item67">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">29. Version de la aplicación  SIMS 16086.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item68">
+                      <label class="custom-control-label" for="item68">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item69" name="">
+                      <label class="custom-control-label" for="item69">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">30. version Business net gamble v 2.0 fix7.5 rs 48328 y puerto IP 10.20.14.10:8130.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item70">
+                      <label class="custom-control-label" for="item70">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item71" name="">
+                      <label class="custom-control-label" for="item71">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">31. version Business net loteria  v1.0  rs 43174 y puerto IP 10.20.14.10:8100.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item72">
+                      <label class="custom-control-label" for="item72">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item73" name="">
+                      <label class="custom-control-label" for="item73">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">32. Ingreso a tienda.betplay.com.co.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item74">
+                      <label class="custom-control-label" for="item74">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item75" name="">
+                      <label class="custom-control-label" for="item75">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">33. Sistema operativo acorde a las especificaciones establecidas.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item76">
+                      <label class="custom-control-label" for="item76">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item77" name="">
+                      <label class="custom-control-label" for="item77">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">34. Cuenta con ANYDESK o Tem weader instalados..</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item78">
+                      <label class="custom-control-label" for="item78">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item79" name="">
+                      <label class="custom-control-label" for="item79">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseFour">
+              Valoracion de Perifericos
+            </a>
+          </div>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card">
+                <div class="card-header">35. Cuenta con Telefono; (evaluar  el buen estado de la bocina, teclado, cableado y conexiones.).</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item80">
+                            <label class="custom-control-label" for="item80">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item81" name="">
+                            <label class="custom-control-label" for="item81">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item82">
+                            <label class="custom-control-label" for="item82">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">36. Cuenta con lector de barra en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item83">
+                            <label class="custom-control-label" for="item83">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item84" name="">
+                            <label class="custom-control-label" for="item84">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item85">
+                            <label class="custom-control-label" for="item85">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">37. Conoce el asesor como hacer uso del lector de barras.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item86">
+                      <label class="custom-control-label" for="item86">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item87" name="">
+                      <label class="custom-control-label" for="item87">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item88" name="">
+                      <label class="custom-control-label" for="item88">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">38. Cuenta con lector biometrico en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item89">
+                            <label class="custom-control-label" for="item89">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item90" name="">
+                            <label class="custom-control-label" for="item90">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item91">
+                            <label class="custom-control-label" for="item91">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">39. Cuenta con camara giros internacionales.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item92">
+                            <label class="custom-control-label" for="item92">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item93" name="">
+                            <label class="custom-control-label" for="item93">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item94">
+                            <label class="custom-control-label" for="item94">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">40. Conoce el asesor el procedimiento para la activacion de la camara.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item95">
+                      <label class="custom-control-label" for="item95">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item96" name="">
+                      <label class="custom-control-label" for="item96">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item97" name="">
+                      <label class="custom-control-label" for="item97">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">41. Teclado en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item98">
+                            <label class="custom-control-label" for="item98">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item99" name="">
+                            <label class="custom-control-label" for="item99">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item100">
+                            <label class="custom-control-label" for="item100">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">42. Mouse en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item101">
+                            <label class="custom-control-label" for="item101">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item102" name="">
+                            <label class="custom-control-label" for="item102">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item103">
+                            <label class="custom-control-label" for="item103">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">43. Cuenta el punto con T.V y su respectivo control.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item104">
+                            <label class="custom-control-label" for="item104">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item105" name="">
+                            <label class="custom-control-label" for="item105">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item106">
+                            <label class="custom-control-label" for="item106">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">44. ¿El televisor funciona?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item107">
+                      <label class="custom-control-label" for="item107">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item108" name="">
+                      <label class="custom-control-label" for="item108">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item109" name="">
+                      <label class="custom-control-label" for="item109">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">45. Si el punto cuenta con T.V se esta proyectado la publicidad.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item110">
+                      <label class="custom-control-label" for="item110">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item111" name="">
+                      <label class="custom-control-label" for="item111">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item112" name="">
+                      <label class="custom-control-label" for="item112">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">46. Conoce el asesor como configurar el televisor en caso de que este, se encuentre  desconfigurado.</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item113">
+                      <label class="custom-control-label" for="item113">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item114" name="">
+                      <label class="custom-control-label" for="item114">No</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item115" name="">
+                      <label class="custom-control-label" for="item115">activo</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">47. Goza de buen estado del cable HDMI.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item116">
+                            <label class="custom-control-label" for="item116">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item117" name="">
+                            <label class="custom-control-label" for="item117">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item118">
+                            <label class="custom-control-label" for="item118">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">48. Cuenta con un monitor en optimas condiones el cual no se convierta en factores de riesgos.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item119">
+                            <label class="custom-control-label" for="item119">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item120" name="">
+                            <label class="custom-control-label" for="item120">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item121">
+                            <label class="custom-control-label" for="item121">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">49. Cable VGA en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item122">
+                            <label class="custom-control-label" for="item122">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item123" name="">
+                            <label class="custom-control-label" for="item123">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item124">
+                            <label class="custom-control-label" for="item124">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">50. Cable de poder en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item125">
+                            <label class="custom-control-label" for="item125">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item126" name="">
+                            <label class="custom-control-label" for="item126">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item127">
+                            <label class="custom-control-label" for="item127">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">51. Puertos USB y otros de la CPU u todo en unos estan en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item128">
+                            <label class="custom-control-label" for="item128">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item129" name="">
+                            <label class="custom-control-label" for="item129">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item130">
+                            <label class="custom-control-label" for="item130">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">52. Cuenta con equipo todo en uno en buen estado. (si es tercerizacion y cuenta con corner).</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item131">
+                            <label class="custom-control-label" for="item131">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item132" name="">
+                            <label class="custom-control-label" for="item132">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item133">
+                            <label class="custom-control-label" for="item133">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">53. ¿Cuenta la CPU con optimas condiciones?, es decir todos sus botones y puertos se encuentran funcionales.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item134">
+                            <label class="custom-control-label" for="item134">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item135" name="">
+                            <label class="custom-control-label" for="item135">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item136">
+                            <label class="custom-control-label" for="item136">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">54. ¿En caso que los puertos de la CPU  o Todo en uno se encuentren en mal estado se cuenta con multipuerto USB?.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item137">
+                            <label class="custom-control-label" for="item137">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item138" name="">
+                            <label class="custom-control-label" for="item138">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item139">
+                            <label class="custom-control-label" for="item139">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">55. Necesita mantenimiento la CPU debido a la presencia de residuos biologicos o materiales particulados  en su interior.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item140">
+                            <label class="custom-control-label" for="item140">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item141" name="">
+                            <label class="custom-control-label" for="item141">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item142">
+                            <label class="custom-control-label" for="item142">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">56. Disco duro (activo).</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item143">
+                            <label class="custom-control-label" for="item143">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item144" name="">
+                            <label class="custom-control-label" for="item144">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item145">
+                            <label class="custom-control-label" for="item145">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">57. Cuenta con tarjeta de RED externa.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item146">
+                            <label class="custom-control-label" for="item146">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item147" name="">
+                            <label class="custom-control-label" for="item147">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item148">
+                            <label class="custom-control-label" for="item148">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">58. Buen estado del cable de poder de la CPU.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item149">
+                            <label class="custom-control-label" for="item149">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item150" name="">
+                            <label class="custom-control-label" for="item150">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item151">
+                            <label class="custom-control-label" for="item151">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">59. Se encuentra la impresora en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item152">
+                            <label class="custom-control-label" for="item152">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item153" name="">
+                            <label class="custom-control-label" for="item153">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item154">
+                            <label class="custom-control-label" for="item154">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">60. ¿La impresora imprme los documentos legibles?.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item155">
+                            <label class="custom-control-label" for="item155">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item156" name="">
+                            <label class="custom-control-label" for="item156">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item157">
+                            <label class="custom-control-label" for="item157">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">61. Buen estado del adaptador de corriente de la impresora.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item158">
+                            <label class="custom-control-label" for="item158">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item159" name="">
+                            <label class="custom-control-label" for="item159">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item160">
+                            <label class="custom-control-label" for="item160">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">62. Bus de datos  de la impresora  rotulado y en buen estado.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item161">
+                            <label class="custom-control-label" for="item161">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item162" name="">
+                            <label class="custom-control-label" for="item162">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item163">
+                            <label class="custom-control-label" for="item163">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <div class="card-header">63. ¿La cinta de la impresora se encuentra en buen estado?.</div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="form-row">
+                      <div class="col">
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item164">
+                            <label class="custom-control-label" for="item164">Si</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item165" name="">
+                            <label class="custom-control-label" for="item165">No</label>
+                          </div>
+                        </form>
+                        <form>
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="item166">
+                            <label class="custom-control-label" for="item166">Activo</label>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" id="" placeholder="cantidad" name="">
+                      </div>
+                    </div>
+                  </div>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseFive">
+              Valoracion Condiciones Locativas
+            </a>
+          </div>
+          <div id="collapseFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <div class="card">
+                <div class="card-header">64. ¿Se encuentran los equipos de computo expuestos al agua?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item167">
+                      <label class="custom-control-label" for="item167">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item168" name="">
+                      <label class="custom-control-label" for="item168">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">65. ¿Se encuentran los equipos de computo expuestos al sol?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item169">
+                      <label class="custom-control-label" for="item169">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item170" name="">
+                      <label class="custom-control-label" for="item170">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">66. ¿Se encuentran los equipos de computo expuestos a material particulado (exceso de polvo)?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item171">
+                      <label class="custom-control-label" for="item171">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item172" name="">
+                      <label class="custom-control-label" for="item172">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">67. ¿Se encuentran los equipos de computo expuestos a roedores?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item173">
+                      <label class="custom-control-label" for="item173">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item174" name="">
+                      <label class="custom-control-label" for="item174">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">68. ¿cuentan los quipos  de comunicación y computos con un sistema de seguricad contra el hurto?</div>
+                <div class="card-body">
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item175">
+                      <label class="custom-control-label" for="item175">Si</label>
+                    </div>
+                  </form>
+                  <form>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="item176" name="">
+                      <label class="custom-control-label" for="item176">No</label>
+                    </div>
+                  </form>
+                  <form class="mt-3" method="post">
+                    <textarea class="form-control" placeholder="Observacion"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="jumbotron text-center mt-3">
+  <p>Record.</p>
 </div>
